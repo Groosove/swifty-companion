@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1427E94B26C1762200CC3857 /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427E94A26C1762200CC3857 /* DIContainer.swift */; };
+		1427E94D26C1768200CC3857 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1427E94C26C1768200CC3857 /* CoreDataStack.swift */; };
 		1448141F26C15D7C00578550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448141E26C15D7C00578550 /* AppDelegate.swift */; };
 		1448142326C15D7C00578550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1448142226C15D7C00578550 /* ViewController.swift */; };
 		1448142926C15D7C00578550 /* swifty_companion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1448142726C15D7C00578550 /* swifty_companion.xcdatamodeld */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1427E94A26C1762200CC3857 /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		1427E94C26C1768200CC3857 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		1448141B26C15D7C00578550 /* swifty-companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swifty-companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1448141E26C15D7C00578550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1448142226C15D7C00578550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1427E94926C1603800CC3857 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1448142A26C15D7D00578550 /* Assets.xcassets */,
+				1448142C26C15D7D00578550 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1448141226C15D7C00578550 = {
 			isa = PBXGroup;
 			children = (
@@ -55,13 +68,22 @@
 			isa = PBXGroup;
 			children = (
 				1448141E26C15D7C00578550 /* AppDelegate.swift */,
-				1448142226C15D7C00578550 /* ViewController.swift */,
-				1448142A26C15D7D00578550 /* Assets.xcassets */,
-				1448142C26C15D7D00578550 /* LaunchScreen.storyboard */,
-				1448142F26C15D7D00578550 /* Info.plist */,
+				145E1A7B26C15FC4002FC458 /* SearchGroup */,
+				1427E94926C1603800CC3857 /* Resources */,
 				1448142726C15D7C00578550 /* swifty_companion.xcdatamodeld */,
+				1448142F26C15D7D00578550 /* Info.plist */,
+				1427E94A26C1762200CC3857 /* DIContainer.swift */,
+				1427E94C26C1768200CC3857 /* CoreDataStack.swift */,
 			);
 			path = "swifty-companion";
+			sourceTree = "<group>";
+		};
+		145E1A7B26C15FC4002FC458 /* SearchGroup */ = {
+			isa = PBXGroup;
+			children = (
+				1448142226C15D7C00578550 /* ViewController.swift */,
+			);
+			path = SearchGroup;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +156,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1427E94D26C1768200CC3857 /* CoreDataStack.swift in Sources */,
+				1427E94B26C1762200CC3857 /* DIContainer.swift in Sources */,
 				1448142326C15D7C00578550 /* ViewController.swift in Sources */,
 				1448141F26C15D7C00578550 /* AppDelegate.swift in Sources */,
 				1448142926C15D7C00578550 /* swifty_companion.xcdatamodeld in Sources */,
